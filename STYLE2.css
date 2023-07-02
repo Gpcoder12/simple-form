@@ -1,0 +1,89 @@
+
+body {
+  display:flexbox;
+  flex-direction: column;
+  min-height: 80vh;
+  background-color:bisque;
+}
+
+
+
+  .container {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:azure;
+    height: 550px;
+    width: 400px;
+    border: 2px solid;color:purple;
+    border-radius: 16px;
+    margin: top 0;
+
+    padding: 20px;
+    
+  }
+
+  footer {
+    flex-shrink: 0;
+    padding: 20px;
+    background-color:skyblue;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-top: 2px;
+
+  }
+
+
+ .h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: aqua;
+  }
+  .h6 {
+    text-align: center;
+    color: purple;
+  }
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid ;color: purple;
+    border-radius: 16px;
+    background-color: skyblue; /* Add background color here */
+  }
+  
+  .error {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  ::placeholder {color: blue; 
+  }
+  .btn-primary:hover {
+    background-color: silver;
+    border-radius: 16px;
+  }
+  
+  
+  #name {color: navy ;}
+  #registrationForm label::before {
+    content: '*';
+    color: red;
+    margin-right: 4px;
+  }
+  
